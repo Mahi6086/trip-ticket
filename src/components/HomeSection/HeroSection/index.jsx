@@ -111,10 +111,11 @@ const HeroSection = () => {
         muted
         loop
         style={{
-          maxHeight: "800px",
-          minHeight: "calc(100vh - 59px)",
+          maxHeight: "500px",
+          minHeight: "calc(100vh - 300px)",
           objectFit: "cover",
           width: "100%",
+          filter: "blur(2px)",
         }}
       ></video>
       <Box
@@ -128,8 +129,8 @@ const HeroSection = () => {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          maxHeight: "800px",
-          minHeight: "calc(100vh - 59px)",
+          maxHeight: "500px",
+          minHeight: "calc(100vh - 300px)",
         }}
       >
         <Container
@@ -150,7 +151,13 @@ const HeroSection = () => {
             className={classes.inputsContainer}
             p={10}
           >
-            <Grid align="center">
+            <Grid
+              align="center"
+              style={{
+                width: "100%",
+                paddingLeft: 20,
+              }}
+            >
               <Grid.Col xs={12} sm={10}>
                 <Grid align="center">
                   <Grid.Col xs={12} sm={4} mx={0}>

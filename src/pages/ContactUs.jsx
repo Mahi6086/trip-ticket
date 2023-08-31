@@ -1,6 +1,5 @@
 import React from "react";
-import Layout from "../components/Layout";
-import {Center, Container, Grid} from "@mantine/core";
+import {Container, Grid} from "@mantine/core";
 
 const ContactUsPage = () => {
   return (
@@ -8,7 +7,7 @@ const ContactUsPage = () => {
       <Grid mt={26} mb={26} v>
         <Grid.Col span={12} md={6}>
           <img
-            src="https://img.freepik.com/free-vector/contact-us-concept-illustration_114360-1850.jpg?w=996&t=st=1692821763~exp=1692822363~hmac=b3461a087d8ccbcbb550569b1672d457d6d3c068d99356b4ce527da4b03375ee"
+            src="http://localhost:3000/images/contact-us.png"
             alt=""
             style={{
               width: "450px",
@@ -34,7 +33,7 @@ const ContactUsPage = () => {
               help you.
             </h3>
             <h4>Phone: 01835859540</h4>
-            <h4>Email: support@eticket.com</h4>
+            <h4>Email: support@tripticket.com</h4>
             <h3>
               Our customer support team is available 24/7 to address any
               inquiries or issues you may encounter. Whether you need help

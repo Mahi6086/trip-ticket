@@ -69,7 +69,7 @@ function Dashboard() {
           >
             <Box sx={columnIconContainer}>
               <Box sx={columnIcon}>
-                <HiDocumentDuplicate color="#FB5252" size={30} />
+                <HiDocumentDuplicate color="#7950F2" size={30} />
               </Box>
             </Box>
             <Group
@@ -81,7 +81,7 @@ function Dashboard() {
                 Number of Booking
               </Text>
               {bookingLists.length ? (
-                <Text style={{fontSize: 36, fontWeight: 700}} color="#FB5252">
+                <Text style={{fontSize: 36, fontWeight: 700}} color="#7950F2">
                   {bookingLists.length}
                 </Text>
               ) : (
@@ -100,7 +100,7 @@ function Dashboard() {
           >
             <Box sx={columnIconContainer}>
               <Box sx={columnIcon}>
-                <AiOutlineSchedule color="#FB5252" size={30} />
+                <AiOutlineSchedule color="#7950F2" size={30} />
               </Box>
             </Box>
             <Group
@@ -113,7 +113,7 @@ function Dashboard() {
               </Text>
 
               {scheduleListsData.length ? (
-                <Text style={{fontSize: 36, fontWeight: 700}} color="#FB5252">
+                <Text style={{fontSize: 36, fontWeight: 700}} color="#7950F2">
                   {" "}
                   {scheduleListsData.length}
                 </Text>
@@ -133,7 +133,7 @@ function Dashboard() {
           >
             <Box sx={columnIconContainer}>
               <Box sx={columnIcon}>
-                <FiUsers color="#FB5252" size={30} />
+                <FiUsers color="#7950F2" size={30} />
               </Box>
             </Box>
             <Group
@@ -146,7 +146,7 @@ function Dashboard() {
               </Text>
 
               {userLists.length ? (
-                <Text style={{fontSize: 36, fontWeight: 700}} color="#FB5252">
+                <Text style={{fontSize: 36, fontWeight: 700}} color="#7950F2">
                   {" "}
                   {userLists.length}
                 </Text>

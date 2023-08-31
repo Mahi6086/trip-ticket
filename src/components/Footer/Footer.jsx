@@ -68,10 +68,10 @@ const Footer = () => {
               >
                 trip-ticket, Inc.
               </span>{" "}
-              provide facilities to the travelers to find tour partner to
-              minimize their tour cost and also the travel &amp; tour companies
-              to provide better service with a very interactive content
-              management system to easily access the information etc!
+              provide facilities to the bus booking system to short time and
+              also Bus companies to provide better service with a very
+              interactive content management system to easily access the
+              information etc!
             </small>
             <small style={{color: "#828894"}}>
               Copyright © 2022.{" "}

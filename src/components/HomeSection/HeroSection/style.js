@@ -11,5 +11,8 @@ export const useStyles = createStyles((theme) => ({
     background: theme.white,
     borderRadius: theme.radius.sm,
     color: theme.black,
+    height: 100,
+    justifyContent: "center",
+    display: "flex",
   },
 }));
