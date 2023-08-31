@@ -60,7 +60,7 @@ const Header = () => {
       <Container className={classes.header} size="xl">
         <Box style={{cursor: "pointer"}} onClick={() => navigate("/")}>
           <Text size={26} fw={900}>
-            E-Ticket
+            Trip-Ticket
           </Text>
         </Box>
         <Group spacing={5} className={classes.links}>

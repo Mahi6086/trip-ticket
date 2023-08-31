@@ -153,8 +153,7 @@ const MakeBooking = () => {
                 width: "100%",
                 borderRadius: "12px",
                 backgroundColor: "#ffffff",
-                boxShadow: "20px 20px 60px #d3d3d3",
-                "-20px -20px 60px": "#ffffff",
+                boxShadow: "20px 20px 60px #d3d3d3 , -20px -20px 60px #ffffff",
               })}
             >
               <Text mb={8} size={21} align="center" fw={900}>
@@ -258,8 +257,7 @@ const MakeBooking = () => {
                 width: "100%",
                 borderRadius: "12px",
                 backgroundColor: "#ffffff",
-                boxShadow: "20px 20px 60px #d3d3d3",
-                "-20px -20px 60px": "#ffffff",
+                boxShadow: "20px 20px 60px #d3d3d3 , -20px -20px 60px #ffffff",
               })}
             >
               <Text mb={8} size={21} align="center" fw={900}>
@@ -295,8 +293,7 @@ const MakeBooking = () => {
                 width: "100%",
                 marginTop: 25,
                 borderRadius: "5px",
-                boxShadow: "20px 20px 60px #d3d3d3",
-                "-20px -20px 60px": "#ffffff",
+                boxShadow: "20px 20px 60px #d3d3d3 , -20px -20px 60px #ffffff",
               }}
             >
               Book Ticket

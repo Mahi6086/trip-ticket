@@ -1,9 +1,10 @@
-import { createStyles } from "@mantine/core";
+import {createStyles} from "@mantine/core";
 
 export const useStyles = createStyles((theme) => ({
   heroSection: {
-    background: ` linear-gradient(rgba(235,70,34,0.8),rgba(235,70,34,0.8)), url("/images/hero-bg.jpg") no-repeat center / cover`,
+    // background: ` linear-gradient(rgba(121, 80, 242,0.6),rgba(121, 80, 242,0.6)), url("/images/hero-bg.jpg") no-repeat center / cover`,
     color: theme.white,
+    position: "relative",
   },
 
   inputsContainer: {

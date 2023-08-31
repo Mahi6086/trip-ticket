@@ -29,7 +29,7 @@ export function AdminHeader({burger}) {
   return (
     <Header height={60} withBorder={false} className={classes.header}>
       {burger && burger}
-      <h2>E-Ticket</h2>
+      <h2>Trip-Ticket</h2>
       <Box sx={{flex: 1}} />
     </Header>
   );

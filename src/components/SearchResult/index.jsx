@@ -46,9 +46,17 @@ const SearchResult = () => {
 
   return searchResult !== null ? (
     <Box component="section" py={40}>
-      <h2 style={{textAlign:"center",  mb :15, textDecoration:"underline", color:"#f04935",}}>
+      <h2
+        style={{
+          textAlign: "center",
+          mb: 15,
+          textDecoration: "underline",
+          color: "#7950F2",
+        }}
+      >
         Available Bus Schedule
       </h2>
+
       <Container size="xl">
         <Table style={{minWidth: 700, width: "100%", overflow: "auto"}}>
           <thead>
@@ -98,7 +106,7 @@ const SearchResult = () => {
                             onClick={() => handleViewSeats(item)}
                             style={{
                               textTransform: "uppercase",
-                              backgroundColor: "#FA5352",
+                              backgroundColor: "#7950F2",
                             }}
                           >
                             Book Ticket

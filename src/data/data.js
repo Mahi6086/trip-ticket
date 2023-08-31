@@ -24,7 +24,7 @@ export const navLinks = [
 
 export const footerData = [
   {
-    title: "About E-Ticket",
+    title: "About Trip-Ticket",
     links: [
       {
         label: "Book ticket",
@@ -57,11 +57,10 @@ export const easyStepsData = [
   {
     id: 1,
     title: "Search Destination",
-    imgSrc:
-      "https://img.freepik.com/free-vector/usability-testing-concept-illustration_114360-1571.jpg?w=826&t=st=1692821265~exp=1692821865~hmac=2ae083f8e3b3c998543da1dab569155432d8c3a140975f0f1bda3f474b1439fe",
+    imgSrc: "http://localhost:3000/images/web-search.png",
     items: [
       {
-        list: "Go to E-Ticket Website",
+        list: "Go to Trip-Ticket Website",
       },
       {
         list: "Select your location",
@@ -69,7 +68,7 @@ export const easyStepsData = [
       {
         list: "Select Bus Type",
       },
-      
+
       {
         list: "Select the date of your journey",
       },
@@ -78,8 +77,7 @@ export const easyStepsData = [
   {
     id: 2,
     title: "Select Ticket",
-    imgSrc:
-      "https://img.freepik.com/free-vector/select-concept-illustration_114360-393.jpg?size=626&ext=jpg&uid=R26131865&ga=GA1.2.514105136.1690728744",
+    imgSrc: "http://localhost:3000/images/select.png",
     items: [
       {
         list: "Provide all the information",
@@ -99,8 +97,7 @@ export const easyStepsData = [
   {
     id: 3,
     title: "Confirm ticket and Enjoy your Journey",
-    imgSrc:
-      "https://img.freepik.com/free-vector/confirmed-concept-illustration_114360-516.jpg?size=626&ext=jpg&uid=R26131865&ga=GA1.1.514105136.1690728744",
+    imgSrc: "http://localhost:3000/images/confirm.png",
     items: [
       {
         list: "Save your ticket ID",

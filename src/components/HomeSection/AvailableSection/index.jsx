@@ -12,7 +12,7 @@ const AvailableSection = () => {
         <Grid>
           <Grid.Col sm={12} md={3}>
             {busRoute.fromDhaka.slice(0, 6).map((item) => (
-              <Card key={item.id} ta="center" bg="#fa725c" mb={10}>
+              <Card key={item.id} ta="center" bg="#8d69f5" mb={10}>
                 <Text color="#fff">
                   {item.start} - {item.end}
                 </Text>
@@ -21,7 +21,7 @@ const AvailableSection = () => {
           </Grid.Col>
           <Grid.Col sm={12} md={3}>
             {busRoute.toDhaka.slice(0, 6).map((item) => (
-              <Card key={item.id} ta="center" bg="#fa725c" mb={10}>
+              <Card key={item.id} ta="center" bg="#8d69f5" mb={10}>
                 <Text color="#fff">
                   {item.start} - {item.end}
                 </Text>
@@ -30,7 +30,7 @@ const AvailableSection = () => {
           </Grid.Col>
           <Grid.Col sm={12} md={3}>
             {busRoute.fromDhaka.slice(6, 12).map((item) => (
-              <Card key={item.id} ta="center" bg="#fa725c" mb={10}>
+              <Card key={item.id} ta="center" bg="#8d69f5" mb={10}>
                 <Text color="#fff">
                   {item.start} - {item.end}
                 </Text>
@@ -39,7 +39,7 @@ const AvailableSection = () => {
           </Grid.Col>
           <Grid.Col sm={12} md={3}>
             {busRoute.toDhaka.slice(6, 12).map((item) => (
-              <Card key={item.id} ta="center" bg="#fa725c" mb={10}>
+              <Card key={item.id} ta="center" bg="#8d69f5" mb={10}>
                 <Text color="#fff">
                   {item.start} - {item.end}
                 </Text>

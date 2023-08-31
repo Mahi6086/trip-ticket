@@ -103,71 +103,110 @@ const HeroSection = () => {
   }, [buses, origin]);
 
   return (
-    <Box component="section" py={40} className={classes.heroSection}>
-      <Container size="xl">
-        <Title order={1} size={45}>
-          Ticketing made easy!
-        </Title>
-        <Text size={20} fw="bold">
-          Buy tickets online hassle-free.
-        </Text>
-        <Box mt={50} component="div" className={classes.inputsContainer} p={10}>
-          <Grid align="center">
-            <Grid.Col xs={12} sm={10}>
-              <Grid align="center">
-                <Grid.Col xs={12} sm={4} mx={0}>
-                  <Select
-                    withinPortal
-                    onChange={(v) => {
-                      setDest(null);
-                      setOrigin(v);
-                    }}
-                    data={from}
-                    placeholder="Choose Your Location"
-                    label="FROM"
-                    classNames={classes}
-                    value={origin}
-                  />
-                </Grid.Col>
-                <Grid.Col xs={12} sm={4} mx={0}>
-                  <Select
-                    onChange={setDest}
-                    withinPortal
-                    data={to}
-                    placeholder="Choose Your Destination"
-                    label="TO"
-                    classNames={classes}
-                    value={dest}
-                  />
-                </Grid.Col>
-                <Grid.Col xs={12} sm={4} mx={0}>
-                  <DatePickerInput
-                    minDate={new Date()}
-                    popoverProps={{withinPortal: true}}
-                    label="DEPATURE DATE"
-                    placeholder="When will you leave?"
-                    classNames={classes}
-                    clearable={false}
-                    value={departureDate}
-                    onChange={handleDate}
-                  />
-                </Grid.Col>
-              </Grid>
-            </Grid.Col>
-            <Grid.Col sx={12} sm={2} span="auto" ta="center">
-              <Button
-                onClick={handleSearch}
-                mt={20}
-                radius="xl"
-                size="md"
-                color="red"
-              >
-                Search ticket
-              </Button>
-            </Grid.Col>
-          </Grid>
-        </Box>
-      </Container>
+    <Box component="section" className={classes.heroSection}>
+      <video
+        class="video-bg"
+        src="http://localhost:3000/videos/bg.mp4"
+        autoPlay
+        muted
+        loop
+        style={{
+          maxHeight: "800px",
+          minHeight: "calc(100vh - 59px)",
+          objectFit: "cover",
+          width: "100%",
+        }}
+      ></video>
+      <Box
+        style={{
+          backgroundColor: "rgba(0,0,0,0.4)",
+          position: "absolute",
+          top: 0,
+          right: 0,
+          left: 0,
+          bottom: 0,
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          maxHeight: "800px",
+          minHeight: "calc(100vh - 59px)",
+        }}
+      >
+        <Container
+          size="xl"
+          style={{
+            width: "100%",
+          }}
+        >
+          <Title order={1} size={45}>
+            Ticketing made easy!
+          </Title>
+          <Text size={20} fw="bold">
+            Buy tickets online hassle-free.
+          </Text>
+          <Box
+            mt={50}
+            component="div"
+            className={classes.inputsContainer}
+            p={10}
+          >
+            <Grid align="center">
+              <Grid.Col xs={12} sm={10}>
+                <Grid align="center">
+                  <Grid.Col xs={12} sm={4} mx={0}>
+                    <Select
+                      withinPortal
+                      onChange={(v) => {
+                        setDest(null);
+                        setOrigin(v);
+                      }}
+                      data={from}
+                      placeholder="Choose Your Location"
+                      label="FROM"
+                      classNames={classes}
+                      value={origin}
+                    />
+                  </Grid.Col>
+                  <Grid.Col xs={12} sm={4} mx={0}>
+                    <Select
+                      onChange={setDest}
+                      withinPortal
+                      data={to}
+                      placeholder="Choose Your Destination"
+                      label="TO"
+                      classNames={classes}
+                      value={dest}
+                    />
+                  </Grid.Col>
+                  <Grid.Col xs={12} sm={4} mx={0}>
+                    <DatePickerInput
+                      minDate={new Date()}
+                      popoverProps={{withinPortal: true}}
+                      label="DEPATURE DATE"
+                      placeholder="When will you leave?"
+                      classNames={classes}
+                      clearable={false}
+                      value={departureDate}
+                      onChange={handleDate}
+                    />
+                  </Grid.Col>
+                </Grid>
+              </Grid.Col>
+              <Grid.Col sx={12} sm={2} span="auto" ta="center">
+                <Button
+                  onClick={handleSearch}
+                  mt={20}
+                  radius="xl"
+                  size="md"
+                  color="#7950F2"
+                >
+                  Search ticket
+                </Button>
+              </Grid.Col>
+            </Grid>
+          </Box>
+        </Container>
+      </Box>
     </Box>
   );
 };

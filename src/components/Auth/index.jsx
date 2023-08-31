@@ -157,7 +157,7 @@ const AuthPage = () => {
             width: "100%",
             textAlign: "center",
             [theme.fn.largerThan("sm")]: {
-              backgroundColor: " #F04935",
+              backgroundColor: " #7950F2",
               padding: "9px 6px",
               margin: "11px 0px",
               color: "white",

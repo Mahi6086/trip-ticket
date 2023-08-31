@@ -8,7 +8,7 @@ const WhyChooseSection = () => {
     <Box component="section" py={40}>
       <Container size="xl">
         <Title order={2} size={35} align="center" mb={30}>
-          Why Choose E-Ticket
+          Why Choose Trip-Ticket
         </Title>
         <Grid>
           {whyChooseData.map((whyChoose) => (

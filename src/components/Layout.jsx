@@ -22,10 +22,10 @@ function Layout() {
 
   return (
     <main>
-      <div style={{minHeight: "100%", marginBottom: -340.5}}>
+      <div style={{minHeight: "100%", marginBottom: -318.49}}>
         <Header />
         <Outlet />
-        <div style={{height: 340.5}}></div>
+        <div style={{height: 318.49}}></div>
       </div>
       <Footer />
     </main>
