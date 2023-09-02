@@ -1,10 +1,10 @@
-import {Text, Container, ActionIcon, Group, Grid} from "@mantine/core";
-import {BsTwitter, BsYoutube, BsInstagram} from "react-icons/bs";
-import {useStyles} from "./style";
-import {footerData} from "../../data/data";
+import { Text, Container, ActionIcon, Group, Grid } from "@mantine/core";
+import { BsTwitter, BsYoutube, BsInstagram } from "react-icons/bs";
+import { useStyles } from "./style";
+import { footerData } from "../../data/data";
 
 const Footer = () => {
-  const {classes} = useStyles();
+  const { classes } = useStyles();
 
   const groups = footerData.map((group) => {
     const links = group.links.map((link, index) => (
@@ -66,15 +66,15 @@ const Footer = () => {
                   color: "#7950F2",
                 }}
               >
-                trip-ticket, Inc.
+                Trip-Ticket, Inc.
               </span>{" "}
               provide facilities to the bus booking system to short time and
               also Bus companies to provide better service with a very
               interactive content management system to easily access the
               information etc!
             </small>
-            <small style={{color: "#828894"}}>
-              Copyright © 2022.{" "}
+            <small style={{ color: "#828894" }}>
+              Copyright © 2023.{" "}
               <span
                 style={{
                   color: "#fff",
